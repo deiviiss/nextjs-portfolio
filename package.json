@@ -1,4 +1,5 @@
 {
+  "cacheDirectories": [".next/cache"],
   "name": "next-simple-portfolio",
   "version": "1.0.0",
   "description": "",
