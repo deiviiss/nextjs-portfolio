@@ -12,10 +12,10 @@ const Github = ({ user, statusCode }) => {
       <div className="row">
         <div className="col-md-4 offset-md-4">
           <div className="card card-body text-center">
-            <h1>{user.name}</h1>
-            <img src={user.avatar_url} alt={user.name} style={{ width: "90%" }} />
+            <img src={user.avatar_url} alt={user.name} style={{ width: "100%;" }} />
+            <h2 className="p-2">{user.name}</h2>
             <p className="p-2">{user.bio}</p>
-            <a href={user.blog} target="_blank" className="btn btn-outline-secondary my-2">Blog</a>
+            {/* <a href={user.blog} target="_blank" className="btn btn-outline-secondary my-2">Blog</a> */}
             <a href={user.html_url} target="_blank" className="btn btn-outline-secondary my-2">Go GitHub</a>
           </div>
         </div>

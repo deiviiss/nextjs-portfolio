@@ -14,7 +14,6 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
   //al cambiar de url
   useEffect(() => {
     const eventChangeRoute = url => {
-      console.log(url);
       nprogress.start();
     }
 
@@ -37,9 +36,9 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
 
         {
           title && (
-            <h1 className={classNames('text-center', { 'text-light': dark })}>
+            <h2 className={classNames('text-center', { 'text-light': dark })}>
               {title}
-            </h1>
+            </h2>
           )
         }
 

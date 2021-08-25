@@ -15,11 +15,11 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
+            {/* <li className="nav-item"> 
               <Link href="/blog">
                 <a className="nav-link active" aria-current="page">Blog</a>
               </Link>
-            </li>
+            </li>*/}
             <li className="nav-item">
               <Link href="/github">
                 <a className="nav-link active" aria-current="page">GitHub</a>

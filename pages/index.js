@@ -18,7 +18,7 @@ const Index = () => (
               <h1>David Hilera</h1>
               <h3>Developer Learning</h3>
               <p>Future web developer Back-end | Entering the world of programming | Technology lover</p>
-              <Link href="/hireme">
+              <Link href="mailto:david.hilera@hotmail.com">
                 <a className="btn btn-outline-light" >Hire me</a>
               </Link>
             </div>
@@ -30,7 +30,8 @@ const Index = () => (
     {/* Second section */}
     <section className="row py-2">
 
-      <div className="col-md-4">
+      {/* Cambiar animación a fadeInRight */}
+      {/* <div className="col-md-4">
         <div className="card bg-light animate__animated animate__fadeInLeft">
           <div className="card-body">
             <h1>Skills</h1>
@@ -55,9 +56,11 @@ const Index = () => (
           </div>
         </div>
       </div>
+ */}
 
-      <div className="col-md-8 py-2">
-        <div className="card bg-light animate__animated animate__fadeInRight">
+      {/* cambiar la class a col-md-8 */}
+      <div className="col-md-12 py-2">
+        <div className="card bg-light animate__animated animate__fadeInUp">
           <div className="card-body">
             <h1 className="card-title">Experience</h1>
 
@@ -74,8 +77,8 @@ const Index = () => (
               }
             </ul>
 
-            <Link href="/experiences">
-              <a className="btn btn-outline-secondary">
+            <Link href="https://www.linkedin.com/in/davidhilera/">
+              <a className="btn btn-outline-secondary" target="_blank">
                 Know more!
               </a>
             </Link>
@@ -90,7 +93,6 @@ const Index = () => (
 
     <section>
       <div className="row">
-
         <div className="col-md-12">
           <div className="card card-body bg-dark">
             <div className="row">
@@ -99,18 +101,18 @@ const Index = () => (
               </div>
 
               {
-                proyects.map(({ name, description, image }, index) => (
+                proyects.map(({ name, description, image, url }, index) => (
                   <div className="col-md-4 p-2" key={index}>
                     <div className="card h-100">
                       <div className="overflow">
-                        <img className="card-img-top" src={`./${image}`} alt={name} />
+                        <img className="card-img-top" src={`${image}`} alt={name} />
                       </div>
 
-                      <div className="card-body">
+                      <div className="card-body card-proyect">
                         <h3>{name}</h3>
                         <p>{description}</p>
-                        <Link href="/portfolio">
-                          <a className="btn btn-outline-secondary" href="#!">Know more!</a>
+                        <Link href={url}>
+                          <a className="btn btn-outline-secondary" target="_blank">Know more!</a>
                         </Link>
                       </div>
                     </div>
@@ -119,7 +121,7 @@ const Index = () => (
               }
 
               <div className="text-center mt-4">
-                <Link href="/proyectos">
+                <Link href="https://github.com/deiviiss">
                   <a className="btn btn-outline-light">More Proyects</a>
                 </Link>
               </div>
@@ -127,7 +129,6 @@ const Index = () => (
           </div>
         </div>
       </div>
-
     </section>
 
   </Layout>

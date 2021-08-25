@@ -31,54 +31,48 @@ export const skills = [
 
 export const experiences = [
   {
-    title: 'Software developer at Microsoft',
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-    from: 2000,
-    to: 2005
-  },
-  {
-    title: 'Software developer at Google',
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-    from: 2005,
-    to: 2007
-  },
-  {
-    title: 'Software developer at SpaceX',
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    title: 'Database admin at Gestoria Peninsular',
+    description: "Develop and implement the database in MYSQL, innovate the way in which customer information is managed and the follow-up of procedures through the development of the company's website.",
     from: 2010
   }
 ]
 
 export const proyects = [
   {
-    name: "Awesome website 1",
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-    image: "portfolio1.jpeg"
+    name: "Recreating Netflix",
+    description: "HTML & CSS (responsive design whitout media querys). Concepts @font-face, ::-webkit-scrollbar, grid-auto-columns, grid-auto-flow, gap,::before, :first-child, ::before white-space: nowrap, overflow-x: auto, position: sticky, :is() svg (fill).",
+    image: "https://repository-images.githubusercontent.com/397920098/9c2d195d-c1fd-42ec-8c67-8371455a0bdc",
+    url: "https://deiviiss.github.io/netflix/"
   },
   {
-    name: "Awesome website 2",
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-    image: "portfolio2.jpg"
+    name: "Parallax - Jewelry",
+    description: "HTML CSS & JavaScript, responsive design. Concepts document.body.scrollHeight, window.innerHeightCSS, window.onscroll, window.pageYOffset, getElementById, window.innerWidth, ::hover, background-attachment: fixed, mix-blend-mode: multiply.",
+    image: "https://repository-images.githubusercontent.com/396173343/3e0a23bd-59d9-4aec-b982-4a005776396a",
+    url: "https://deiviiss.github.io/parallax-joyeria/"
   },
   {
-    name: "Awesome website 3",
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-    image: "portfolio3.png"
+    name: "Amazon Menu",
+    description: "HTML CSS & JavaScript, responsive design. Concepts CSS grid, ::before, ::hover, querySelector, querySelectorAll, getElementById, addEventListener, events (click, mouseover, mouseleave), .forEach, preventDefault(), dataset, classList (remove, add, toggle), window.innerWidth.",
+    image: "https://repository-images.githubusercontent.com/389354085/cd952773-c738-48da-a9f0-ea536cc94f00",
+    url: "https://deiviiss.github.io/menuAmazon/"
   },
   {
-    name: "Awesome website 4",
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-    image: "portfolio4.png"
+    name: "Shopping Cart",
+    description: "Vanila JavaScript & template HTML. Concepts Fragment, Template, Reduce, addEventListener, event click, event delegation, objects, fetch, JSON,LocalStorage, Hosting.",
+    image: "https://repository-images.githubusercontent.com/381883110/42208680-d9e8-11eb-9954-16e19dcd9ca4",
+    url: "https://deiviiss.github.io/carrito-compras/"
   },
   {
-    name: "Awesome website 5",
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-    image: "portfolio5.jpeg"
+    name: "Yeray Restaurant Menu",
+    description: "Interactive restaurant menu. Vanila JavaScrip. Concepts Arrays, Objects, forEach, DOMContentLoaded, map, reduce and filter innerHTML includes method.",
+    image: "https://repository-images.githubusercontent.com/358987441/f1c68a80-9f9b-11eb-99e1-ccd6a12ac98b",
+    url: "https://deiviiss.github.io/menu-yeray/"
   },
   {
-    name: "Awesome website 6",
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-    image: "portfolio6.jpeg"
+    name: "simonDice Game",
+    description: "Taken from Platzi's JavaScript course, made with JavaScript, HTML and CSS, I use concepts like for loops, switch conditions, arrays, this, class, constructor.",
+    image: "https://repository-images.githubusercontent.com/227949915/1eec60a1-1fd9-4ae6-9a52-8950b860ebaa",
+    url: "https://deiviiss.github.io/simonDice/"
   }
 ]
 
