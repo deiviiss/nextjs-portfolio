@@ -1,6 +1,6 @@
 import 'bootswatch/dist/cosmo/bootstrap.min.css'
 import 'animate.css/animate.min.css'
-import '../global.css'
+import '../styles/global.css'
 // import { Head } from 'next/document'
 
 function MyApp({ Component, pageProps }) {
