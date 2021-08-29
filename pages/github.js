@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Layout from '../components/Layout'
 import Error from './_error'
+import Image from 'next/image'
 
 const Github = ({ user, statusCode }) => {
 
@@ -14,7 +15,9 @@ const Github = ({ user, statusCode }) => {
       <div className="row">
         <div className="col-md-4 offset-md-4">
           <div className="card card-body text-center">
-            <img src={user.avatar_url} alt={user.name} style={{ width: "100%;" }} />
+            <div className="image-container">
+              <Image layout="fill" className="image" src={user.avatar_url} alt={user.name} />
+            </div>
             <h2 className="p-2">{user.name}</h2>
             <p className="p-2">{user.bio}</p>
             {/* <a href={user.blog} target="_blank" className="btn btn-outline-secondary my-2">Blog</a> */}
