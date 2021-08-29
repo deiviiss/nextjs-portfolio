@@ -1,5 +1,3 @@
-/* eslint-disable react/jsx-no-target-blank */
-/* eslint-disable @next/next/no-img-element */
 import Layout from '../components/Layout'
 import Error from './_error'
 import Image from 'next/image'

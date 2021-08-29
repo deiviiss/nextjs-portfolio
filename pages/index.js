@@ -15,7 +15,7 @@ const Index = () => (
           <div className="row">
             <div className="col-md-4">
               <div className="image-container" >
-                <Image layout="fill" src="/ryan-ray-profile2.jpeg" alt="profile" className="img-fluid image" />
+                <Image layout="fill" src="/portfolioDavidHilera.jpg" alt="profile" className="img-fluid image" />
               </div>
             </div>
             <div className="col-md-8">

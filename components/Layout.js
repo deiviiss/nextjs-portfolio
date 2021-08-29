@@ -26,7 +26,7 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
     return () => {
       router.events.off('routeChangeStart', eventChangeRoute);
     };
-  }, []);
+  });
 
   return (
     <div className={classNames({ 'bg-dark': dark, 'bg-light': !dark })}>
