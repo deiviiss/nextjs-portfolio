@@ -19,7 +19,7 @@ const Github = ({ user, statusCode }) => {
             <h2 className="p-2">{user.name}</h2>
             <p className="p-2">{user.bio}</p>
             {/* <a href={user.blog} target="_blank" className="btn btn-outline-secondary my-2">Blog</a> */}
-            <a href={user.html_url} target="_blank" className="btn btn-outline-secondary my-2">Go GitHub</a>
+            <a href={user.html_url} target="_blank" className="btn btn-outline-secondary my-2" rel="noreferrer">Go GitHub</a>
           </div>
         </div>
       </div>
