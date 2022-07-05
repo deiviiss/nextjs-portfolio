@@ -33,7 +33,7 @@ export const experiences = [
   {
     title: 'Database admin at Gestoria Peninsular',
     description: "Develop and implement the database in MYSQL, innovate the way in which customer information is managed and the follow-up of procedures through the development of the company's website.",
-    from: 2010
+    from: 2018
   }
 ]
 
@@ -46,7 +46,7 @@ export const proyects = [
   },
   {
     name: "App Posts",
-    description: "crud app in nextjs",
+    description: "CRUD App in Nextjs",
     image: "https://repository-images.githubusercontent.com/510015208/d05236c7-d4f0-41f7-8971-87b6e358d159",
     url: "https://posts-crud-six.vercel.app/"
   },

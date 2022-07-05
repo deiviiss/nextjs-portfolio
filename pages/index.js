@@ -21,9 +21,9 @@ const Index = () => (
             <div className="col-md-8">
               <h1>David Hilera</h1>
               <h3>Developer Learning</h3>
-              <p>Future web developer Back-end | Entering the world of programming | Technology lover</p>
+              <p>Web developer Back-end | Living in the world of programming | Technology lover</p>
               <Link href="mailto:david.hilera@hotmail.com">
-                <a className="btn btn-outline-light" >Hire me</a>
+                <a className="btn btn-outline-light" >Contact me</a>
               </Link>
             </div>
           </div>
