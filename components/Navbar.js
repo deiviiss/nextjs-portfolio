@@ -25,11 +25,11 @@ const Navbar = () => {
                 <a className="nav-link active" aria-current="page">GitHub</a>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link href="/reto_platzi.jpg">
                 <a className="nav-link active" aria-current="page">Reto Platzi</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

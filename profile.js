@@ -39,6 +39,24 @@ export const experiences = [
 
 export const proyects = [
   {
+    name: "E-Commerce",
+    description: "E-Commerce App in NextJs",
+    image: "https://repository-images.githubusercontent.com/490069812/814c4246-978b-4dfb-b3ec-21f5e3b5c8ee",
+    url: "https://next-store-kappa.vercel.app/"
+  },
+  {
+    name: "App Posts",
+    description: "crud app in nextjs",
+    image: "https://repository-images.githubusercontent.com/510015208/d05236c7-d4f0-41f7-8971-87b6e358d159",
+    url: "https://posts-crud-six.vercel.app/"
+  },
+  {
+    name: "Shopping Cart",
+    description: "Vanila JavaScript & template HTML. Concepts Fragment, Template, Reduce, addEventListener, event click, event delegation, objects, fetch, JSON,LocalStorage, Hosting.",
+    image: "https://repository-images.githubusercontent.com/381883110/9861b5f6-8388-4f76-b2d3-880bb4d5868c",
+    url: "https://deiviiss.github.io/carrito-compras/"
+  },
+  {
     name: "Recreating Netflix",
     description: "HTML & CSS (responsive design whitout media querys). Concepts @font-face, ::-webkit-scrollbar, grid-auto-columns, grid-auto-flow, gap,::before, :first-child, ::before white-space: nowrap, overflow-x: auto, position: sticky, :is() svg (fill).",
     image: "https://repository-images.githubusercontent.com/397920098/ffc6296e-b3f9-4721-896b-530055027032",
@@ -56,24 +74,6 @@ export const proyects = [
     image: "https://repository-images.githubusercontent.com/389354085/eb2e6296-2f3d-4e0b-ac34-d7fcc40fe4a2",
     url: "https://deiviiss.github.io/menuAmazon/"
   },
-  {
-    name: "Shopping Cart",
-    description: "Vanila JavaScript & template HTML. Concepts Fragment, Template, Reduce, addEventListener, event click, event delegation, objects, fetch, JSON,LocalStorage, Hosting.",
-    image: "https://repository-images.githubusercontent.com/381883110/9861b5f6-8388-4f76-b2d3-880bb4d5868c",
-    url: "https://deiviiss.github.io/carrito-compras/"
-  },
-  {
-    name: "Restaurant Menu",
-    description: "Interactive restaurant menu. Vanila JavaScrip. Concepts Arrays, Objects, forEach, DOMContentLoaded, map, reduce and filter innerHTML includes method.",
-    image: "https://repository-images.githubusercontent.com/358987441/35195f6b-76e1-4e17-ab5c-07f2f1ee674a",
-    url: "https://deiviiss.github.io/menu-yeray/"
-  },
-  {
-    name: "simonDice Game",
-    description: "Taken from Platzi's JavaScript course, made with JavaScript, HTML and CSS, I use concepts like for loops, switch conditions, arrays, this, class, constructor.",
-    image: "https://repository-images.githubusercontent.com/227949915/1eec60a1-1fd9-4ae6-9a52-8950b860ebaa",
-    url: "https://deiviiss.github.io/simonDice/"
-  }
 ]
 
 export const posts = [

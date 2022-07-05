@@ -13,9 +13,9 @@ const Index = () => (
       <div className="col-md-12">
         <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4 d-flex align-items-center">
               <div className="image-container" >
-                <Image layout="fill" src="/portfolioDavidHilera.jpg" alt="profile" className="img-fluid image" />
+                <Image layout="fill" src="/logo.png" alt="profile" className="img-fluid image" />
               </div>
             </div>
             <div className="col-md-8">
