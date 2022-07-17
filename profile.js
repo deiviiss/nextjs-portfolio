@@ -39,6 +39,12 @@ export const experiences = [
 
 export const proyects = [
   {
+    name: "Traveling!",
+    description: "Landing Page darkMode next-themes",
+    image: "https://repository-images.githubusercontent.com/514954862/7ca377a0-3e86-4955-b6a2-8a6cdb68d7da",
+    url: "https://traveling-three.vercel.app/"
+  },
+  {
     name: "E-Commerce",
     description: "E-Commerce App in NextJs",
     image: "https://repository-images.githubusercontent.com/490069812/814c4246-978b-4dfb-b3ec-21f5e3b5c8ee",
@@ -52,25 +58,25 @@ export const proyects = [
   },
   {
     name: "Shopping Cart",
-    description: "Vanila JavaScript & template HTML. Concepts Fragment, Template, Reduce, addEventListener, event click, event delegation, objects, fetch, JSON,LocalStorage, Hosting.",
+    description: "Vanila JavaScript & template HTML. Component E-Commerce",
     image: "https://repository-images.githubusercontent.com/381883110/9861b5f6-8388-4f76-b2d3-880bb4d5868c",
     url: "https://deiviiss.github.io/carrito-compras/"
   },
   {
     name: "Recreating Netflix",
-    description: "HTML & CSS (responsive design whitout media querys). Concepts @font-face, ::-webkit-scrollbar, grid-auto-columns, grid-auto-flow, gap,::before, :first-child, ::before white-space: nowrap, overflow-x: auto, position: sticky, :is() svg (fill).",
+    description: "HTML & CSS (responsive design whitout media querys).",
     image: "https://repository-images.githubusercontent.com/397920098/ffc6296e-b3f9-4721-896b-530055027032",
     url: "https://deiviiss.github.io/netflix/"
   },
-  {
-    name: "Parallax - Jewelry",
-    description: "HTML CSS & JavaScript, responsive design. Concepts document.body.scrollHeight, window.innerHeightCSS, window.onscroll, window.pageYOffset, getElementById, window.innerWidth, ::hover, background-attachment: fixed, mix-blend-mode: multiply.",
-    image: "https://repository-images.githubusercontent.com/396173343/e14fc775-a91d-4e04-99ee-401c87259779",
-    url: "https://deiviiss.github.io/parallax-joyeria/"
-  },
+  // {
+  //   name: "Parallax - Jewelry",
+  //   description: "HTML CSS & JavaScript, responsive design. Concepts document.body.scrollHeight, window.innerHeightCSS, window.onscroll, window.pageYOffset, getElementById, window.innerWidth, ::hover, background-attachment: fixed, mix-blend-mode: multiply.",
+  //   image: "https://repository-images.githubusercontent.com/396173343/e14fc775-a91d-4e04-99ee-401c87259779",
+  //   url: "https://deiviiss.github.io/parallax-joyeria/"
+  // },
   {
     name: "Menu type Amazon",
-    description: "HTML CSS & JavaScript, responsive design. Concepts CSS grid, ::before, ::hover, querySelector, querySelectorAll, getElementById, addEventListener, events (click, mouseover, mouseleave), .forEach, preventDefault(), dataset, classList (remove, add, toggle), window.innerWidth.",
+    description: "HTML CSS & JavaScript, responsive design.",
     image: "https://repository-images.githubusercontent.com/389354085/eb2e6296-2f3d-4e0b-ac34-d7fcc40fe4a2",
     url: "https://deiviiss.github.io/menuAmazon/"
   },
