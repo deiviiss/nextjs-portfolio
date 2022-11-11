@@ -21,7 +21,7 @@ const Index = () => (
             <div className="col-md-8">
               <h1>David Hilera</h1>
               <h3>Developer Learning</h3>
-              <p>Web developer Back-end | Living in the world of programming | Technology lover</p>
+              <p>Full Stack developer Backendend | Living the world of programming | Technology lover.</p>
               <Link href="mailto:david.hilera@hotmail.com">
                 <a className="btn btn-outline-light" >Contact me</a>
               </Link>
@@ -33,36 +33,6 @@ const Index = () => (
 
     {/* Second section */}
     <section className="row py-2">
-
-      {/* Cambiar animación a fadeInRight */}
-      {/* <div className="col-md-4">
-        <div className="card bg-light animate__animated animate__fadeInLeft">
-          <div className="card-body">
-            <h1>Skills</h1>
-
-            {
-              skills.map(({ skill, percentage }, index) => (
-                <div className="py-3" key={index}>
-                  <h5>{skill}</h5>
-                  <div className="progress">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: `${percentage}%` }}
-                      aria-valuenow="50"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-              ))
-            }
-          </div>
-        </div>
-      </div>
- */}
-
-      {/* cambiar la class a col-md-8 */}
       <div className="col-md-12 py-2">
         <div className="card bg-light animate__animated animate__fadeInUp">
           <div className="card-body">
@@ -90,7 +60,6 @@ const Index = () => (
           </div>
         </div>
       </div>
-
     </section>
 
     {/* Portfolio */}
