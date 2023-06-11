@@ -1,5 +1,4 @@
 import Layout from '../../components/Layout'
-// import Error from './_error'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -7,29 +6,17 @@ export const metadata = {
   title: 'GitHub',
 }
 
-// conecta con servidor API
+// conect to API
 async function getData () {
   const res = await fetch('https://api.github.com/users/deiviiss')
 
   if (!res.ok) throw new Error('Failed to fetch data')
 
   return res.json()
-
-  // const statusCode = res.status > 200 ? res.status : false
-  // return {
-  //   props: {
-  //     user: data,
-  //     statusCode
-  //   }
-  // }
 }
 
-const Github = async ({ user, statusCode }) => {
+const Github = async () => {
   const data = await getData()
-  console.log(data)
-  if (statusCode) {
-    return '<Error statusCode={statusCode} />'
-  }
 
   return (
     <Layout footer={false} dark>
@@ -49,7 +36,5 @@ const Github = async ({ user, statusCode }) => {
     </Layout>
   )
 }
-
-// Github.proptypes = {}
 
 export default Github

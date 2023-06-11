@@ -8,9 +8,7 @@ specifiers:
   eslint: ^8.42.0
   eslint-config-next: ^13.4.4
   next: ^13.4.4
-  nprogress: ^0.2.0
   postcss: ^8.4.24
-  prop-types: ^15.8.1
   react: ^18.2.0
   react-dom: ^18.2.0
   tailwindcss: ^3.3.2
@@ -22,8 +20,6 @@ dependencies:
   eslint: 8.42.0
   eslint-config-next: 13.4.4_eslint@8.42.0
   next: 13.4.4_biqbaboplfbrettd7655fr4n2y
-  nprogress: 0.2.0
-  prop-types: 15.8.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -1860,10 +1856,6 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       path-key: 4.0.0
-    dev: false
-
-  /nprogress/0.2.0:
-    resolution: {integrity: sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==}
     dev: false
 
   /object-assign/4.1.1:

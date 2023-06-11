@@ -1,6 +1,5 @@
 'use client'
 
-import { useRouter } from 'next/navigation'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import classNames from 'classnames'
