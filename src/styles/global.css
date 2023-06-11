@@ -1,8 +1,8 @@
 html,
 body,
-body > div:first-child,
+body>div:first-child,
 div#__next,
-div#__next > div {
+div#__next>div {
   height: 100%;
 }
 
@@ -41,13 +41,11 @@ div#__next > div {
   border-left-color: #ffbb00;
 }
 
-/* Resuelve el problema que genera el componente Image al aplicar layout="fill" */
-
 .image-container {
   width: 100%;
 }
 
-.image-container > div {
+.image-container>div {
   position: unset !important;
 }
 
@@ -57,18 +55,3 @@ div#__next > div {
   position: relative !important;
   height: unset !important;
 }
-
-/* Media querys */
-@media screen and (min-width: 768px) {
-}
-
-/* Revisando porque el media query no afecta los botones */
-/* Media Querys
-
-- 320px
-- 480px
-- 768px
-- 1024px
-- 1366px
-- 1440px
-- 1920px */

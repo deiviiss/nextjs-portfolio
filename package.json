@@ -1,25 +1,25 @@
 {
   "name": "portfolio-nextjs",
+  "description": "personal proyects",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "eslint src/** --fix"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
-    "bootswatch": "^5.1.0",
-    "classnames": "^2.3.1",
-    "next": "11.1.0",
+    "bootswatch": "^5.3.0",
+    "classnames": "^2.3.2",
+    "eslint": "^8.42.0",
+    "eslint-config-next": "^13.4.4",
+    "next": "^13.4.4",
     "nprogress": "^0.2.0",
-    "prop-types": "^15.7.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0"
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

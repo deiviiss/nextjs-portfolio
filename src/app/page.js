@@ -1,7 +1,6 @@
-// import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/Layout'
-import { experiences, proyects } from '../profile'
+import { experiences, proyects } from '../../profile'
 import Link from 'next/link'
 
 const Index = () => (
@@ -15,15 +14,15 @@ const Index = () => (
           <div className="row">
             <div className="col-md-4 d-flex align-items-center">
               <div className="image-container" >
-                <Image layout="fill" src="/logo.png" alt="profile" className="img-fluid image" />
+                <Image fill src="/logo.png" alt="profile" className="img-fluid image" />
               </div>
             </div>
             <div className="col-md-8">
               <h1>David Hilera</h1>
               <h3>Developer Learning</h3>
               <p>Full Stack developer Backendend | Living the world of programming | Technology lover.</p>
-              <Link href="mailto:david.hilera@hotmail.com">
-                <a className="btn btn-outline-light" >Contact me</a>
+              <Link href="mailto:david.hilera@hotmail.com" className="btn btn-outline-light">
+                Contact me
               </Link>
             </div>
           </div>
@@ -44,17 +43,16 @@ const Index = () => (
                 experiences.map(({ title, description, from, to }, index) => (
                   <li key={index}>
                     <h3>{title}</h3>
-                    <h5>{from} {to ? `- ${to}` : "- current"}</h5>
+                    <h5>{from} {to ? `- ${to}` : '- current'}</h5>
                     <p>{description}</p>
                   </li>
                 ))
               }
             </ul>
 
-            <Link href="https://www.linkedin.com/in/davidhilera/">
-              <a className="btn btn-outline-secondary" target="_blank">
-                Know more!
-              </a>
+            <Link href="https://www.linkedin.com/in/davidhilera/" className="btn btn-outline-secondary" target="_blank">
+              Know more!
+
             </Link>
 
           </div>
@@ -83,14 +81,14 @@ const Index = () => (
                       </div>
 
                       <div className="overflow image-container">
-                        <Image layout="fill" className="card-img-top image" src={`${image}`} alt={name} />
+                        <Image fill className="card-img-top image" src={`${image}`} alt={name} />
                       </div>
 
                       <div className="card-body card-proyect">
                         {/* <h3>{name}</h3> */}
                         <p>{description}</p>
-                        <Link href={url}>
-                          <a className="btn btn-outline-secondary" target="_blank">Know more!</a>
+                        <Link href={url} className="btn btn-outline-secondary" target="_blank">
+                          Know more!
                         </Link>
                       </div>
                     </div>
@@ -99,8 +97,8 @@ const Index = () => (
               }
 
               <div className="text-center mt-4">
-                <Link href="https://github.com/deiviiss">
-                  <a className="btn btn-outline-light">More Proyects</a>
+                <Link href="https://github.com/deiviiss" className="btn btn-outline-light">
+                  More Proyects
                 </Link>
               </div>
             </div>
@@ -112,4 +110,4 @@ const Index = () => (
   </Layout>
 )
 
-export default Index;
+export default Index
