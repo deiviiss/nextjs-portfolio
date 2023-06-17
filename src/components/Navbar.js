@@ -2,11 +2,11 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container">
+    <nav className="navbar-dark bg-dark">
+      <div className="p-4 max-w-7xl mx-auto">
 
-        <Link href="/" className="navbar-brand">
-          Portfolio Home
+        <Link href="/" className="navbar-brand text-xl">
+          Bienvenido
         </Link>
 
         <div className="collapse navbar-collapse" id="navbarNav">

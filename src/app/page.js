@@ -3,111 +3,102 @@ import Layout from '../components/Layout'
 import { experiences, proyects } from '../../profile'
 import Link from 'next/link'
 
-const Index = () => (
-  <Layout>
+const Home = () => {
 
-    {/* Header card */}
+  return (
+    <Layout>
+      {/* Header*/}
+      <header className="bg-[#373A3C] p-4">
+        <div className=' md:flex sm:gap-4'>
 
-    <header className="row">
-      <div className="col-md-12">
-        <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
-          <div className="row">
-            <div className="col-md-4 d-flex align-items-center">
-              <div className="image-container" >
-                <Image fill src="/logo.png" alt="profile" className="img-fluid image" />
-              </div>
-            </div>
-            <div className="col-md-8">
-              <h1>David Hilera</h1>
-              <h3>Developer Learning</h3>
-              <p>Full Stack developer Backendend | Living the world of programming | Technology lover.</p>
-              <Link href="mailto:david.hilera@hotmail.com" className="btn btn-outline-light">
-                Contact me
-              </Link>
-            </div>
+          <div className="flex w-full justify-end md:justify-center" >
+            <Image width={324} height={123} className="object-contain" src="/logo_david.png" alt="profile" />
           </div>
-        </div>
-      </div>
-    </header>
 
-    {/* Second section */}
-    <section className="row py-2">
-      <div className="col-md-12 py-2">
-        <div className="card bg-light animate__animated animate__fadeInUp">
-          <div className="card-body">
-            <h1 className="card-title">Experience</h1>
-
-            <ul>
-              {/* List Item Experience */}
-              {
-                experiences.map(({ title, description, from, to }, index) => (
-                  <li key={index}>
-                    <h3>{title}</h3>
-                    <h5>{from} {to ? `- ${to}` : '- current'}</h5>
-                    <p>{description}</p>
-                  </li>
-                ))
-              }
-            </ul>
-
-            <Link href="https://www.linkedin.com/in/davidhilera/" className="btn btn-outline-secondary" target="_blank">
-              Know more!
-
+          <div className="flex flex-col text-white text-base">
+            <h2 className='text-3xl my-2'>Full Stack developer</h2>
+            <p className='mb-4'>Pasión por el Backend con habilidades de Frontend. Comprometido con proyectos desde una perspectiva más amplia que solo el código.
+            </p>
+            <Link href="mailto:david.hilera@hotmail.com" className="w-28 max-w-xs text-center border-white border py-1 px-3 hover:bg-white hover:text-[#373A3C] cursor-pointer rounded-md transition duration-150 ease-in-out">
+              Contactáme
             </Link>
-
           </div>
         </div>
-      </div>
-    </section>
+      </header>
 
-    {/* Portfolio */}
+      {/* Section */}
+      <section className="animate__animated animate__fadeInUp">
 
-    <section>
-      <div className="row">
-        <div className="col-md-12">
-          <div className="card card-body bg-dark">
-            <div className="row">
-              <div className="col-md-12">
-                <h1 className="text-center text-light">Portfolio</h1>
-              </div>
+        <div className="flex flex-col border-[#373A3C] border mt-8 p-3 pb-4">
+          <h2 className='text-3xl mb-2'>Experiencia</h2>
 
-              {
-                proyects.map(({ name, description, image, url }, index) => (
-                  <div className="col-md-4 p-2" key={index}>
-                    <div className="card h-100">
+          <ul className=' pl-8'>
+            {/* List Item Experience */}
+            {
+              experiences.map(({ title, description, from, to, option }, index) => (
+                <li key={index}>
+                  <h3 className='text-2xl mb-2'>{title}</h3>
+                  <h4 className='text-xl mb-2'>{from} {to ? `- ${to}` : '- current'}</h4>
+                  <p className='pb-2'>{description}</p>
+                  <p className='mb-4'>{option}</p>
+                </li>
+              ))
+            }
+          </ul>
 
-                      <div className="card-body card-proyect">
-                        <h3 className="card-title">{name}</h3>
-                      </div>
+          <div className="flex justify-center">
+            <Link href="https://www.linkedin.com/in/davidhilera/" className="w-full max-w-xs text-center rounded-md border-[#373A3C] border-1 py-[6px] px-[12px] hover:bg-[#373A3C] hover:text-white hover:border-red cursor-pointer transition duration-150 ease-in-out" target="_blank">
+              Conoce más!
+            </Link>
+          </div>
 
-                      <div className="overflow image-container">
-                        <Image fill className="card-img-top image" src={`${image}`} alt={name} />
-                      </div>
+        </div>
 
-                      <div className="card-body card-proyect">
-                        {/* <h3>{name}</h3> */}
-                        <p>{description}</p>
-                        <Link href={url} className="btn btn-outline-secondary" target="_blank">
-                          Know more!
-                        </Link>
-                      </div>
+      </section>
+
+      {/* Portfolio */}
+      <section className="animate__animated animate__fadeInUp">
+        <div className="flex flex-col bg-[#373A3C] mt-4 pt-3 pb-4">
+
+          <h1 className="text-3xl mb-2 text-white text-center">Portafolio</h1>
+
+          <div className="sm:grid sm:grid-cols-2 p-2 sm:gap-4 px-3">
+            {
+              proyects.map(({ name, description, image, url, repo }, index) => (
+                <div className="text-[#373A3C] break-words bg-white bg-clip-border border-[#373A3C]" key={index}>
+                  <h3 className="text-2xl p-4">{name}</h3>
+                  <div className="flex w-full justify-center">
+                    <Image width={324} height={123} className="object-contain" src={`${image}`} alt={name} />
+                  </div>
+
+                  <div className="flex flex-col p-3 gap-4">
+                    <p>{description}</p>
+                    <div className="flex gap-2">
+                      <Link href={url} className="w-28 text-center rounded-md border-[#373A3C] border-1 py-[6px] px-[12px] hover:bg-[#373A3C] hover:text-white hover:border-red cursor-pointer transition duration-150 ease-in-out" target="_blank">
+                        Demo
+                      </Link>
+                      <Link href={repo} className="w-28 text-center rounded-md border-[#373A3C] border-1 py-[6px] px-[12px] hover:bg-[#373A3C] hover:text-white hover:border-red cursor-pointer transition duration-150 ease-in-out" target="_blank">
+                        Repo
+                      </Link>
                     </div>
                   </div>
-                ))
-              }
-
-              <div className="text-center mt-4">
-                <Link href="https://github.com/deiviiss" className="btn btn-outline-light">
-                  More Proyects
-                </Link>
-              </div>
-            </div>
+                </div>
+              ))
+            }
           </div>
+
+          <div className="flex justify-center text-white">
+            <Link href="https://github.com/deiviiss" className="w-full max-w-xs text-center border-white border py-1 hover:bg-white hover:text-[#373A3C] cursor-pointer rounded-md transition duration-150 ease-in-out mt-4 mx-4">
+              Más proyectos
+            </Link>
+          </div>
+
         </div>
-      </div>
-    </section>
+      </section >
 
-  </Layout>
-)
 
-export default Index
+    </Layout >
+  )
+}
+
+export default Home

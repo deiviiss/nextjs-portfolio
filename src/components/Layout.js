@@ -4,20 +4,12 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import classNames from 'classnames'
 
-const Layout = ({ children, title, footer = true, dark = false }) => {
-
+const Layout = ({ children, footer = true, dark = false }) => {
   return (
     <div className={classNames({ 'bg-dark': dark, 'bg-light': !dark })}>
-      <Navbar />
 
-      <main className="container py-4">
-        {
-          title && (
-            <h2 className={classNames('text-center', { 'text-light': dark })}>
-              {title}
-            </h2>
-          )
-        }
+      <Navbar />
+      <main className="p-4 max-w-6xl mx-auto">
 
         {/* Content */}
         {children} {/* agrega componentes debajo del Navbar */}
