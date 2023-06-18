@@ -1,26 +1,23 @@
-'use client'
-
-import Navbar from './Navbar'
 import Footer from './Footer'
-import classNames from 'classnames'
+import { Header } from './Header'
+import Navbar from './Navbar'
 
-const Layout = ({ children, footer = true, dark = false }) => {
+const Layout = ({ children }) => {
   return (
-    <div className={classNames({ 'bg-dark': dark, 'bg-light': !dark })}>
-
+    <>
       <Navbar />
-      <main className="p-4 max-w-6xl mx-auto">
+
+      <Header />
+
+      <main className="p-4 px-2 max-w-6xl mx-auto">
 
         {/* Content */}
         {children} {/* agrega componentes debajo del Navbar */}
       </main>
 
-      {
-        footer && (
-          <Footer />
-        )
-      }
-    </div>
+      <Footer />
+
+    </>
   )
 }
 
