@@ -7,7 +7,7 @@ export const Header = () => {
       <div className=' md:flex sm:gap-4'>
 
         <div className="flex w-full justify-end md:justify-center" >
-          <Image width={324} height={123} className="object-contain" src="/logo_david.png" alt="profile" />
+          <Image width={324} height={123} className="object-contain" src="/logo_david.webp" alt="profile" />
         </div>
 
         <div className="flex flex-col text-white text-base">
