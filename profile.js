@@ -10,7 +10,7 @@ export const experiences = [
 export const proyects = [
   {
     name: 'Memorama colaborativo ReactJs',
-    description: 'Proyecto colaborativo sobre un memorama con diferente tematica usando ReacjJs, Tailwind y Vite, el código permite al jugador emparejar tarjetas girándolas, cuanta con niveles y temporizador. #NextJs #Tailwind #Netlify #Vite',
+    description: 'Proyecto colaborativo sobre un memorama con diferente tematica usando ReacjJs, Tailwind y Vite, el código permite al jugador emparejar tarjetas girándolas, cuenta con niveles y temporizador. #NextJs #Tailwind #Netlify #Vite',
     image: 'https://repository-images.githubusercontent.com/604870428/f77abf65-b963-4e11-97fb-66be7ed3b329',
     url: 'https://memorame.netlify.app/',
     repo: 'https://github.com/deiviiss/memory-game.git'
