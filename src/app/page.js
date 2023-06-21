@@ -10,7 +10,7 @@ const Home = () => {
       {/* Section */}
       <section className="animate__animated animate__fadeInUp">
 
-        <div className="flex flex-col border-[#373a3c25] border mt-3 p-3 pb-6 text-[#373a3cf7]">
+        <div className="flex flex-col border-[#24272925] border mt-3 p-3 pb-6 text-[#242729f7]">
           <h2 className='text-3xl mb-2'>Experiencia</h2>
 
           <ul className=' pl-8'>
@@ -28,7 +28,7 @@ const Home = () => {
           </ul>
 
           <div className="flex justify-center pt-3">
-            <Link href="https://www.linkedin.com/in/davidhilera/" className="w-full max-w-[10rem] text-center rounded-md border-[#373a3c7f] border-2 py-1 px-3 hover:bg-[#373A3C] hover:text-white hover:border-red cursor-pointer transition duration-150 ease-in-out" target="_blank">
+            <Link href="https://www.linkedin.com/in/davidhilera/" className="w-full max-w-[10rem] text-center rounded-md border-[#2427297f] border-2 py-1 px-3 hover:bg-[#242729] hover:text-white hover:border-red cursor-pointer transition duration-150 ease-in-out" target="_blank">
               Conoce más!
             </Link>
           </div>
@@ -39,14 +39,14 @@ const Home = () => {
 
       {/* Portfolio */}
       <section className="animate__animated animate__fadeInUp">
-        <div className="flex flex-col bg-[#373A3C] mt-7 pt-3 pb-4">
+        <div className="flex flex-col bg-[#242729] mt-7 pt-3 pb-4">
 
           <h1 className="text-3xl mb-2 text-white text-center">Portafolio</h1>
 
           <div className="flex flex-col gap-y-5 sm:grid sm:grid-cols-2 p-2 sm:gap-4 px-3">
             {
               proyects.map(({ name, description, image, url, repo }, index) => (
-                <div className="text-[#373A3C] break-words bg-white bg-clip-border border-[#373A3C]" key={index}>
+                <div className="text-[#242729] break-words bg-white bg-clip-border border-[#242729]" key={index}>
                   <h3 className="text-2xl p-4">{name}</h3>
                   <div className="flex w-full justify-center">
                     <Image width={324} height={123} className="object-contain" src={`${image}`} alt={name} />
@@ -55,10 +55,10 @@ const Home = () => {
                   <div className="flex flex-col p-4 my-3 gap-4">
                     <p>{description}</p>
                     <div className="flex gap-2">
-                      <Link href={url} className="w-28 text-center rounded-md border-[#373a3c7f] border-2 py-[6px] px-[12px] hover:bg-[#373A3C] hover:text-white hover:border-red cursor-pointer transition duration-150 ease-in-out" target="_blank">
+                      <Link href={url} className="w-28 text-center rounded-md border-[#2427297f] border-2 py-[6px] px-[12px] hover:bg-[#242729] hover:text-white hover:border-red cursor-pointer transition duration-150 ease-in-out" target="_blank">
                         Demo
                       </Link>
-                      <Link href={repo} className="w-28 text-center rounded-md border-[#373a3c7f] border-2 py-[6px] px-[12px] hover:bg-[#373A3C] hover:text-white hover:border-red cursor-pointer transition duration-150 ease-in-out" target="_blank">
+                      <Link href={repo} className="w-28 text-center rounded-md border-[#2427297f] border-2 py-[6px] px-[12px] hover:bg-[#242729] hover:text-white hover:border-red cursor-pointer transition duration-150 ease-in-out" target="_blank">
                         Repo
                       </Link>
                     </div>
@@ -69,7 +69,7 @@ const Home = () => {
           </div>
 
           <div className="flex justify-center mt-2 text-white">
-            <Link href="https://github.com/deiviiss" className="w-full max-w-[10rem] text-center border-white border py-1 hover:bg-white hover:text-[#373A3C] cursor-pointer rounded-md transition duration-150 ease-in-out mt-4 mx-4">
+            <Link href="https://github.com/deiviiss" className="w-full max-w-[10rem] text-center border-white border py-1 hover:bg-white hover:text-[#242729] cursor-pointer rounded-md transition duration-150 ease-in-out mt-4 mx-4">
               Más proyectos
             </Link>
           </div>
