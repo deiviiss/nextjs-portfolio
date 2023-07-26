@@ -49,7 +49,7 @@ const Home = () => {
                 <div className="text-[#242729] break-words bg-white bg-clip-border border-[#242729]" key={index}>
                   <h3 className="text-2xl p-4">{name}</h3>
                   <div className="flex w-full justify-center">
-                    <Image width={324} height={123} className="object-contain" src={`${image}`} alt={name} />
+                    <Image width={324} height={123} className="w-auto h-auto object-contain" src={`${image}`} alt={name} loading='lazy' />
                   </div>
 
                   <div className="flex flex-col p-4 my-3 gap-4">

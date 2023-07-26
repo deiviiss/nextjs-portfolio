@@ -9,6 +9,13 @@ export const experiences = [
 
 export const proyects = [
   {
+    name: 'Next-Auth',
+    description: 'Página web con autenticación y páginas protegidas implementado con NextAuth.js. Permite a los usuarios iniciar y cerrar sesión de manera segura, con acceso restringido a ciertas secciones. #NextJs #NextAuth #Tailwind #Vercel',
+    image: 'https://repository-images.githubusercontent.com/671144422/9d0b9c7e-2b9b-4ef1-92c0-2a144d8fe315',
+    url: 'https://session-next-auth.vercel.app/',
+    repo: 'https://github.com/deiviiss/next-auth.git'
+  },
+  {
     name: 'Memorama colaborativo ReactJs',
     description: 'Proyecto colaborativo sobre un memorama con diferente tematica usando ReacjJs, Tailwind y Vite, el código permite al jugador emparejar tarjetas girándolas, cuenta con niveles y temporizador. #NextJs #Tailwind #Netlify #Vite',
     image: 'https://repository-images.githubusercontent.com/604870428/f77abf65-b963-4e11-97fb-66be7ed3b329',
