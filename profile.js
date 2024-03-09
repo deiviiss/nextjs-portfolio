@@ -8,6 +8,13 @@ export const experiences = [
 ]
 
 export const proyects = [
+   {
+    name: 'Next-Auth',
+    description: 'Proyecto desarrollado en equipo durante la simulación Cohorte 16 en No Country. Página web con autenticación y páginas protegidas implementado con NextAuth.js que permite al usuario crear y administrar propiedades. #NextJs #NextAuth #Styles #Vercel',
+    image: 'https://raw.githubusercontent.com/deiviiss/deploy-no-country/main/public/logoHeader.svg',
+    url: 'https://imomubiales.vercel.app',
+    repo: 'https://github.com/deiviiss/deploy-no-country.git'
+  },
   {
     name: 'Next-Auth',
     description: 'Página web con autenticación y páginas protegidas implementado con NextAuth.js. Permite a los usuarios iniciar y cerrar sesión de manera segura, con acceso restringido a ciertas secciones. #NextJs #NextAuth #Tailwind #Vercel',
