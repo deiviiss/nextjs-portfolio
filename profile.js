@@ -1,15 +1,43 @@
 export const experiences = [
   {
     title: 'Administrador de base de datos en Gestoría Peninsular',
-    description: 'Desarrollo e implementación de base de datos en MYSQL y mejora de la gestión de la información de clientes a través del desarrollo web. He desarrollado y implementado exitosamente bases de datos en MYSQL, mejorando la gestión de la información de los clientes.',
+    description: 'Desarrollo e implementación de base de datos en MYSQL y mejora de la gestión de la información de clientes a través del desarrollo web. He desarrollado e implementado exitosamente bases de datos en MYSQL, mejorando la gestión de la información de los clientes.',
     option: 'Además, he trabajado de manera independiente en el desarrollo web para optimizar el seguimiento de procedimientos. Mi enfoque se basa en la utilización de tecnologías modernas y en la adopción de prácticas eficientes.',
     from: 2020
   }
 ]
 
 export const proyects = [
-   {
-    name: 'Next-Auth',
+  {
+    name: 'Bazar Campechano',
+    description: 'E-commerce personalizado para un cliente real, diseñado para la venta de productos variados como ropa, zapatos y juguetes. El sistema permite a los administradores gestionar productos, pedidos y usuarios de manera efectiva, con opciones de pago diversas y personalización de la tienda. #NextJs #TypeScript #NestJs #Docker #Postgres #Prisma #Tailwind #Cloudinary',
+    image: 'https://repository-images.githubusercontent.com/835229345/4e49305a-e818-47d5-8bbf-e592f7c19565',
+    url: 'https://bazar-campechano.vercel.app',
+    repo: 'https://github.com/deiviiss/bazar-campechano'
+  },
+  {
+    name: 'Moda Shop',
+    description: 'Aplicación e-commerce desarrollada para la venta de ropa. Cuenta con un catálogo de productos, carrito de compras, registro y perfil de clientes, direcciones de entrega, historial de pedidos, y múltiples opciones de pago, incluyendo PayPal y Mercado Pago. #NextJs #TypeScript #NestJs #Docker #Postgres #Prisma #Tailwind #Cloudinary',
+    image: 'https://repository-images.githubusercontent.com/766486294/45c72425-3a36-4c9d-af7c-9dee13d3aa14',
+    url: 'https://moda-shop.vercel.app',
+    repo: 'https://github.com/deiviiss/teslo-shop'
+  },
+  {
+    name: 'Santa Ana Club',
+    description: 'Sistema de registro de usuarios y autenticación desarrollado en equipo durante la simulación seleccionado 15. El proyecto se centró en la colaboración para crear un manejo eficiente de usuarios, visualización de contenido por tipo de usuario, y una pasarela de pago robusta. #Teamwork #NextJs #TypeScript #NestJs #Docker #Postgres #Tailwind',
+    image: 'https://repository-images.githubusercontent.com/811480284/e7dd8ed2-746c-4078-8892-50bc04d2ca19',
+    url: 'https://santa-ana-club.vercel.app',
+    repo: 'https://github.com/No-Country/s15-06-t-node-react'
+  },
+  {
+    name: 'TallerXpert',
+    description: 'Proyecto colaborativo desarrollado durante la simulación de No Country S14, enfocado en la gestión de talleres mecánicos. El equipo trabajó para crear una interfaz amigable que abarca cada etapa del negocio, incluyendo registro de clientes, órdenes de trabajo, y control de reparaciones. También se implementaron notificaciones, pagos con MercadoPago, y estadísticas de negocio. #Teamwork #NextJs #TypeScript #NodeJs #Docker #Postgres #Tailwind',
+    image: 'https://raw.githubusercontent.com/deiviiss/deploy-taller-xpert/main/frontend/src/assets/banner.png',
+    url: 'https://s14-36-t-node-react.vercel.app',
+    repo: 'https://s14-36-t-node-react.vercel.app/'
+  },
+  {
+    name: 'Imomubiales',
     description: 'Proyecto desarrollado en equipo durante la simulación Cohorte 16 en No Country. Página web con autenticación y páginas protegidas implementado con NextAuth.js que permite al usuario crear y administrar propiedades. #NextJs #NextAuth #Styles #Vercel',
     image: 'https://raw.githubusercontent.com/deiviiss/deploy-no-country/main/public/logoHeader.svg',
     url: 'https://imomubiales.vercel.app',
