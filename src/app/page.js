@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { FaRegArrowAltCircleUp } from 'react-icons/fa'
+import { IoArrowUp } from 'react-icons/io5'
 import { experiences, proyects } from '../../profile'
 import Layout from '../components/Layout'
 import { ButtonScrollTop } from '../components/ui/ButtonScrollTop'
@@ -78,7 +80,7 @@ const Home = () => {
         </div>
       </section >
 
-<ButtonScrollTop name='Ir arriba' className='fixed bottom-4 right-6 w-28 max-w-[10rem] text-center rounded-md border-[#2427297f] border hover:bg-[#242729] hover:text-white hover:border-red cursor-pointer transition duration-150 ease-in-out md:right-16 z-10 text-black hover:no-underline  text-xl p-2  border-black bg-white  print:hidden' />
+<ButtonScrollTop className='fixed bottom-4 right-6 p-3 text-center rounded-full border hover:bg-[#242729] hover:text-white cursor-pointer transition duration-150 ease-in-out hover:no-underline border-[#242729] bg-white print:hidden animate-bounce hover:animate-none' icon={<IoArrowUp className='w-7 h-7' />} />
 
     </Layout >
   )

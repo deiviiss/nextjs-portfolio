@@ -31,7 +31,7 @@ export const ButtonScrollTop = ({ name, className, icon }) => {
           className={className}
           onClick={handleScrollToTop}
         >
-          {icon && <span className="icon">{icon}</span>}
+          {icon && <span>{icon}</span>}
           {name && <span>{name}</span>}
         </button>
       )}
