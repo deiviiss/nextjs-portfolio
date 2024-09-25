@@ -9,10 +9,17 @@ export const experiences = [
 
 export const proyects = [
   {
+    name: 'Mi Tienda en Línea',
+    description: 'Landing page promocional para una plataforma de ecommerce que ofrece a los emprendedores la posibilidad de crear su propia tienda en línea con un acompañamiento cercano. Destaca características como personalización total, soporte continuo, y planes de suscripción claros, sin comisiones ocultas. #NextJs #Tailwind #Vercel',
+    image: 'https://repository-images.githubusercontent.com/861436093/976a74ec-7045-4a30-9f5c-e4336148ecf8',
+    url: 'https://mitiendaenlinea.shop',
+    repo: 'https://github.com/deiviiss/mi-tienda-en-linea'
+  },
+  {
     name: 'Bazar Campechano',
     description: 'E-commerce personalizado para un cliente real, diseñado para la venta de productos variados como ropa, zapatos y juguetes. El sistema permite a los administradores gestionar productos, pedidos y usuarios de manera efectiva, con opciones de pago diversas y personalización de la tienda. #NextJs #TypeScript #NestJs #Docker #Postgres #Prisma #Tailwind #Cloudinary',
     image: 'https://repository-images.githubusercontent.com/835229345/4e49305a-e818-47d5-8bbf-e592f7c19565',
-    url: 'https://bazar-campechano.vercel.app',
+    url: 'https://bazarcampehano.com',
     repo: 'https://github.com/deiviiss/bazar-campechano'
   },
   {
@@ -42,6 +49,13 @@ export const proyects = [
     image: 'https://raw.githubusercontent.com/deiviiss/deploy-no-country/main/public/logoHeader.svg',
     url: 'https://imomubiales.vercel.app',
     repo: 'https://github.com/deiviiss/deploy-no-country.git'
+  },
+  {
+    name: 'Landing Page Salón de Uñas',
+    description: 'Landing page promocional para un salón de uñas. La página cuenta con cuatro secciones principales: servicios, galería, precios y "about". También incluye secciones adicionales como términos y condiciones, política de privacidad, política de cancelación y contacto. #NextJs #Tailwind #Vercel',
+    image: 'https://repository-images.githubusercontent.com/694166860/c55954b7-9f7a-4c69-aa5c-489fc6e60677',
+    url: 'https://github.com/deiviiss/dream-nails',
+    repo: 'https://dreamnails.beauty'
   },
   {
     name: 'Next-Auth',
