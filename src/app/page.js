@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { experiences, proyects } from '../../profile'
 import Layout from '../components/Layout'
+import { ButtonScrollTop } from '../components/ui/ButtonScrollTop'
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       {/* Section */}
       <section className="animate__animated animate__fadeInUp">
 
-        <div className="flex flex-col border-[#24272925] border mt-3 p-3 pb-6 text-[#242729f7]">
+        <div className="flex flex-col border-[#24272925] border mt-3 p-3 pb-6 text-[#242729f7] ">
           <h2 className='text-3xl mb-2'>Experiencia</h2>
 
           <ul className=' pl-8'>
@@ -76,6 +77,8 @@ const Home = () => {
 
         </div>
       </section >
+
+<ButtonScrollTop name='Ir arriba' className='fixed bottom-4 right-6 w-28 max-w-[10rem] text-center rounded-md border-[#2427297f] border hover:bg-[#242729] hover:text-white hover:border-red cursor-pointer transition duration-150 ease-in-out md:right-16 z-10 text-black hover:no-underline  text-xl p-2  border-black bg-white  print:hidden' />
 
     </Layout >
   )

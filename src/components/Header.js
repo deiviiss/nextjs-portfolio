@@ -3,10 +3,10 @@ import Link from 'next/link'
 
 export const Header = () => {
   return (
-    <header className="max-w-7xl mx-auto bg-[#242729] p-6 mt-0">
-      <div className=' md:flex sm:gap-4'>
+    <header className="w-full bg-[#242729] p-6 mt-0">
+      <div className='sm:gap-4 max-w-6xl mx-auto grid sm:grid-cols-2'>
 
-        <div className="flex w-full justify-end md:justify-center" >
+        <div className="flex w-full justify-end sm:justify-start" >
           <Image priority width={324} height={123} className="object-contain w-auto h-auto" src="/logo_david.webp" alt="profile" />
         </div>
 

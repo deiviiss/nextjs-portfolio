@@ -10,7 +10,7 @@ export const experiences = [
 export const proyects = [
   {
     name: 'Mi Tienda en Línea',
-    description: 'Landing page promocional para una plataforma de ecommerce que ofrece a los emprendedores la posibilidad de crear su propia tienda en línea con un acompañamiento cercano. Destaca características como personalización total, soporte continuo, y planes de suscripción claros, sin comisiones ocultas. #NextJs #Tailwind #Vercel',
+    description: 'Landing page promocional para una plataforma que ofrece a los emprendedores la posibilidad de crear su propia tienda en línea con un acompañamiento cercano. Destaca características como personalización total, soporte continuo, y planes de suscripción claros, sin comisiones ocultas. #NextJs #Tailwind #Vercel',
     image: 'https://repository-images.githubusercontent.com/861436093/976a74ec-7045-4a30-9f5c-e4336148ecf8',
     url: 'https://mitiendaenlinea.shop',
     repo: 'https://github.com/deiviiss/mi-tienda-en-linea'
@@ -58,6 +58,20 @@ export const proyects = [
     repo: 'https://dreamnails.beauty'
   },
   {
+    name: 'Landig Page GP',
+    description: 'Ejemplo de Landing Page para Gestoria Peninsular, cuatro páginas, cinco secciones y formulario de contacto. #NextJs #Tailwind #Vercel',
+    image: 'https://repository-images.githubusercontent.com/618058687/c7a4726c-159d-48f5-b146-af2751e573fd',
+    url: 'https://landingpage-gp.vercel.app',
+    repo: 'https://github.com/deiviiss/landingpage-gp.git'
+  },
+  {
+    name: 'Landing Page DRM',
+    description: 'Ejemplo de Landing Page para constructora, cinco secciones y formulario de contacto. #JavaScript #HTML #CSS #GitHubPages',
+    image: 'https://repository-images.githubusercontent.com/586087964/729f01fd-7fa1-47a1-aac5-59cff26a7749',
+    url: 'https://deiviiss.github.io/landingpage-drm/',
+    repo: 'https://github.com/deiviiss/landingpage-drm.git'
+  },
+  {
     name: 'Next-Auth',
     description: 'Página web con autenticación y páginas protegidas implementado con NextAuth.js. Permite a los usuarios iniciar y cerrar sesión de manera segura, con acceso restringido a ciertas secciones. #NextJs #NextAuth #Tailwind #Vercel',
     image: 'https://repository-images.githubusercontent.com/671144422/9d0b9c7e-2b9b-4ef1-92c0-2a144d8fe315',
@@ -72,25 +86,11 @@ export const proyects = [
     repo: 'https://github.com/deiviiss/memory-game.git'
   },
   {
-    name: 'Landig Page GP',
-    description: 'Ejemplo de Landing Page para Gestoria Peninsular, cuatro páginas, cinco secciones y formulario de contacto. #NextJs #Tailwind #Vercel',
-    image: 'https://repository-images.githubusercontent.com/618058687/c7a4726c-159d-48f5-b146-af2751e573fd',
-    url: 'https://landingpage-gp.vercel.app',
-    repo: 'https://github.com/deiviiss/landingpage-gp.git'
-  },
-  {
     name: 'Lazy Image',
     description: 'App que consume api de la NASA para cargar imagenes y ser mostradas cuando se hace scroll. #ReactJs #TypeScript #Vite #Vercel',
     image: 'https://repository-images.githubusercontent.com/649434998/af8fca8b-0351-4b57-9874-25d27b0aba91',
     url: 'https://lazy-image-two.vercel.app',
     repo: 'https://github.com/deiviiss/lazy-image.git'
-  },
-  {
-    name: 'Landing Page DRM',
-    description: 'Ejemplo de Landing Page para constructora, cinco secciones y formulario de contacto. #JavaScript #HTML #CSS #GitHubPages',
-    image: 'https://repository-images.githubusercontent.com/586087964/729f01fd-7fa1-47a1-aac5-59cff26a7749',
-    url: 'https://deiviiss.github.io/landingpage-drm/',
-    repo: 'https://github.com/deiviiss/landingpage-drm.git'
   },
   {
     name: 'Memorama colaborativo JavaScript',
