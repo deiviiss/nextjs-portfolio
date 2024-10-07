@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaRegArrowAltCircleUp } from 'react-icons/fa'
 import { IoArrowUp } from 'react-icons/io5'
 import { experiences, proyects } from '../../profile'
 import Layout from '../components/Layout'
