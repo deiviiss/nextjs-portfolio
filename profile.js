@@ -26,7 +26,7 @@ export const proyects = [
     name: 'Bazar Campechano',
     description: 'E-commerce personalizado para un cliente real, diseñado para la venta de productos variados como ropa, zapatos y juguetes. El sistema permite a los administradores gestionar productos, pedidos y usuarios de manera efectiva, con opciones de pago diversas y personalización de la tienda. #NextJs #TypeScript #NestJs #Docker #Postgres #Prisma #Tailwind #Cloudinary',
     image: 'https://repository-images.githubusercontent.com/835229345/4e49305a-e818-47d5-8bbf-e592f7c19565',
-    url: 'https://bazarcampehano.com',
+    url: 'https://bazarcampechano.com',
     repo: 'https://github.com/deiviiss/bazar-campechano'
   },
   {
