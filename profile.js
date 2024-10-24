@@ -9,6 +9,13 @@ export const experiences = [
 
 export const proyects = [
   {
+    name: 'Picteller',
+    description: 'Herramienta de marketing desarrollada durante la hackatón de Cloudinary y midudev. Permite a los usuarios transformar imágenes de productos, aplicar promociones y temas especiales como Halloween o Navidad, y generar contenido listo para compartir en redes sociales. Incluye descripciones generadas por IA, fondos personalizados y banners promocionales. #NextJs #TypeScript #Cloudinary #Tailwind #AI',
+    image: 'https://repository-images.githubusercontent.com/875719265/877864e9-d6bd-4e78-8478-db1d9a203d78',
+    url: 'https://picteller.vercel.app',
+    repo: 'https://github.com/deiviiss/hackaton-cloudinary.git'
+  },
+  {
     name: 'Mi Tienda en Línea',
     description: 'Landing page promocional para una plataforma que ofrece a los emprendedores la posibilidad de crear su propia tienda en línea con un acompañamiento cercano. Destaca características como personalización total, soporte continuo, y planes de suscripción claros, sin comisiones ocultas. #NextJs #Tailwind #Vercel',
     image: 'https://repository-images.githubusercontent.com/861436093/976a74ec-7045-4a30-9f5c-e4336148ecf8',
@@ -127,13 +134,13 @@ export const proyects = [
     url: 'https://next-store-kappa.vercel.app/',
     repo: 'https://github.com/deiviiss/next-store'
   },
-  {
-    name: 'CRUD Posts',
-    description: 'Una aplicación CRUD desarrollada con Next.js que guarda posts con imagen. Requiere de una base de datos en MongoDb. #NextJs #MongoDb #Vercel',
-    image: 'https://repository-images.githubusercontent.com/510015208/d05236c7-d4f0-41f7-8971-87b6e358d159',
-    url: 'https://posts-crud-six.vercel.app/',
-    repo: 'https://github.com/deiviiss/posts-nextjs'
-  },
+  // {
+  //   name: 'CRUD Posts',
+  //   description: 'Una aplicación CRUD desarrollada con Next.js que guarda posts con imagen. Requiere de una base de datos en MongoDb. #NextJs #MongoDb #Vercel',
+  //   image: 'https://repository-images.githubusercontent.com/510015208/d05236c7-d4f0-41f7-8971-87b6e358d159',
+  //   url: 'https://posts-crud-six.vercel.app/',
+  //   repo: 'https://github.com/deiviiss/posts-nextjs'
+  // },
   {
     name: 'Carrito de compras',
     description: 'Funcionalidad de un carrito de compras desarrollado con JavaScript puro y plantillas de HTML. #JavaScript #HTML #CSS #GitHubPages',
