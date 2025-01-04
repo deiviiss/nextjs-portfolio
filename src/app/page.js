@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { IoArrowUp } from 'react-icons/io5'
+import { IoArrowUp, IoLogoWhatsapp } from 'react-icons/io5'
 import { experiences, proyects } from '../../profile'
 import Layout from '../components/Layout'
+import { ButtonContactWhatsApp } from '../components/ui/ButtonContactWhatsApp'
 import { ButtonScrollTop } from '../components/ui/ButtonScrollTop'
 
 const Home = () => {
@@ -79,7 +80,11 @@ const Home = () => {
         </div>
       </section >
 
-<ButtonScrollTop className='fixed bottom-4 right-6 p-3 text-center rounded-full border hover:bg-[#242729] hover:text-white cursor-pointer transition duration-150 ease-in-out hover:no-underline border-[#242729] bg-white print:hidden animate-bounce hover:animate-none' icon={<IoArrowUp className='w-7 h-7' />} />
+   <ButtonContactWhatsApp className='fixed bottom-20 right-6 p-3 text-center rounded-full border hover:bg-[#242729] hover:text-white cursor-pointer transition duration-150 ease-in-out hover:no-underline border-[#242729] bg-white print:hidden hover:animate-none'
+        icon={<IoLogoWhatsapp className='w-7 h-7' />}
+      />
+
+<ButtonScrollTop className='fixed bottom-4 right-6 p-3 text-center rounded-full border hover:bg-[#242729] hover:text-white cursor-pointer transition duration-150 ease-in-out hover:no-underline border-[#242729] bg-white print:hidden hover:animate-none' icon={<IoArrowUp className='w-7 h-7' />} />
 
     </Layout >
   )

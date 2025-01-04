@@ -1,8 +1,9 @@
 'use client'
 
+import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
-export const ButtonScrollTop = ({ name, className, icon }) => {
+export const ButtonContactWhatsApp = ({ name, className, icon }) => {
   const [isVisible, setIsVisible] = useState(false)
   const fixedScrollThreshold = 2 // 2% scroll threshold
 
@@ -10,10 +11,6 @@ export const ButtonScrollTop = ({ name, className, icon }) => {
     // calculate the vertical scroll percentage
     const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100
     setIsVisible(scrolled > fixedScrollThreshold) // show the button if the percentage is greater than the fixed value
-  }
-
-  const handleScrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   useEffect(() => {
@@ -26,15 +23,14 @@ export const ButtonScrollTop = ({ name, className, icon }) => {
 
   return (
       <div className={`${isVisible ? 'fade-in pointer-events-auto' : 'opacity-0  pointer-events-none'}`}>
-      {isVisible && (
-        <button
-          className={className}
-          onClick={handleScrollToTop}
-        >
-          {icon && <span>{icon}</span>}
+      <button
+        className={className}
+      >
+        <Link href="https://wa.me/529811250049?text=Hola%2C%20deseo%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de..." passHref target='_blank'>
+          {icon && <span className="icon">{icon}</span>}
           {name && <span>{name}</span>}
-        </button>
-      )}
+        </Link>
+      </button>
     </div>
   )
 }
