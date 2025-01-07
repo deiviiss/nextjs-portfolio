@@ -16,6 +16,13 @@ export const proyects = [
     repo: 'https://github.com/deiviiss/bazar-campechano'
   },
   {
+    name: 'Newsletter - Fundación GK',
+    description: 'Sistema de boletines informativos desarrollado para el programa de inglés de la Fundación GK y la escuela El Huerto de la Ilusión. Permite a los administradores gestionar listas de suscriptores, crear y mostrar newsletters personalizados. El sistema incluye panel de administración intuitivo. #NextJs #TypeScript #Postgres #Tailwind',
+    image: 'https://res.cloudinary.com/cloudinary-api-images/image/upload/v1736264526/seeds/Porfolio/Educational_Newsletter_oiy21e.png',
+    url: 'https://educationalnewsletter.vercel.app',
+    repo: 'https://github.com/deiviiss/newsletter-k2'
+  },
+  {
     name: 'Picteller',
     description: 'Herramienta de marketing desarrollada durante la hackatón de Cloudinary y midudev. Permite a los usuarios transformar imágenes de productos, aplicar promociones y temas especiales como Halloween o Navidad, y generar contenido listo para compartir en redes sociales. Incluye descripciones generadas por IA, fondos personalizados y banners promocionales. #NextJs #TypeScript #Cloudinary #Tailwind #AI',
     image: 'https://repository-images.githubusercontent.com/875719265/877864e9-d6bd-4e78-8478-db1d9a203d78',

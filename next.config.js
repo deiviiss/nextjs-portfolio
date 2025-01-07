@@ -4,7 +4,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 const nextConfig = {
   images: {
-    domains: ['repository-images.githubusercontent.com', 'avatars.githubusercontent.com', 'raw.githubusercontent.com']
+    domains: ['repository-images.githubusercontent.com', 'avatars.githubusercontent.com', 'raw.githubusercontent.com', 'res.cloudinary.com']
   }
 }
 
