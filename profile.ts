@@ -3,7 +3,8 @@ export const experiences = [
     title: 'Administrador de base de datos en Gestoría Peninsular',
     description: 'Desarrollo e implementación de base de datos en MYSQL y mejora de la gestión de la información de clientes a través del desarrollo web. He desarrollado e implementado exitosamente bases de datos en MYSQL, mejorando la gestión de la información de los clientes.',
     option: 'Además, he trabajado de manera independiente en el desarrollo web para optimizar el seguimiento de procedimientos. Mi enfoque se basa en la utilización de tecnologías modernas y en la adopción de prácticas eficientes.',
-    from: 2020
+    from: 2020,
+    to: 2024
   }
 ]
 

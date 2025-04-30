@@ -2,7 +2,13 @@
 
 import { useEffect, useState } from 'react'
 
-export const ButtonScrollTop = ({ name, className, icon }) => {
+interface ButtonScrollTopProps {
+  name?: string
+  className?: string
+  icon?: React.ReactNode
+}
+
+export const ButtonScrollTop = ({ name, className, icon }: ButtonScrollTopProps) => {
   const [isVisible, setIsVisible] = useState(false)
   const fixedScrollThreshold = 2 // 2% scroll threshold
 
@@ -25,7 +31,7 @@ export const ButtonScrollTop = ({ name, className, icon }) => {
   }, [])
 
   return (
-      <div className={`${isVisible ? 'fade-in pointer-events-auto' : 'opacity-0  pointer-events-none'}`}>
+    <div className={`${isVisible ? 'fade-in pointer-events-auto' : 'opacity-0  pointer-events-none'}`}>
       {isVisible && (
         <button
           className={className}

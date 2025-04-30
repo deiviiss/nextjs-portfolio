@@ -3,7 +3,13 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
-export const ButtonContactWhatsApp = ({ name, className, icon }) => {
+interface ButtonContactWhatsAppProps {
+  name?: string
+  className?: string
+  icon?: React.ReactNode
+}
+
+export const ButtonContactWhatsApp = ({ name, className, icon }: ButtonContactWhatsAppProps) => {
   const [isVisible, setIsVisible] = useState(false)
   const fixedScrollThreshold = 2 // 2% scroll threshold
 
@@ -22,7 +28,7 @@ export const ButtonContactWhatsApp = ({ name, className, icon }) => {
   }, [])
 
   return (
-      <div className={`${isVisible ? 'fade-in pointer-events-auto' : 'opacity-0  pointer-events-none'}`}>
+    <div className={`${isVisible ? 'fade-in pointer-events-auto' : 'opacity-0  pointer-events-none'}`}>
       <button
         className={className}
       >
