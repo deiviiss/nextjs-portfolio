@@ -39,8 +39,6 @@ export const ContactSection = () => {
     const userEmail = formData.get('email') as string
     const userMessage = formData.get('message') as string
 
-    console.log('Datos del formulario', { userName, userEmail, userMessage })
-
     await receiveContactMessage({ userEmail, userName, userMessage })
     await sendContactMessage({ userEmail, userName })
 

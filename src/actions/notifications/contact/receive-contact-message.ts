@@ -9,8 +9,9 @@ interface Props {
 }
 
 export const receiveContactMessage = async ({ userEmail, userName, userMessage }: Props) => {
+  const year = new Date().getFullYear()
 
-  const rta = await sendEmail({
+  await sendEmail({
     email: 'david.hilera@hotmail.com',
     subject: `Mensaje de contacto - ${userName}.`,
     message: `
@@ -22,16 +23,15 @@ export const receiveContactMessage = async ({ userEmail, userName, userMessage }
       <li style="color: #cccccc;"><strong>Email:</strong> ${userEmail}</li>
       <li style="color: #cccccc;"><strong>Mensaje:</strong> ${userMessage || 'No se proporcionó un mensaje'}</li>
     </ul>
-    <hr style="border: 1px solid #333;" />
-    <p style="color: #888888; font-size: 12px; text-align: center;">
-      Este mensaje fue enviado automáticamente desde el formulario de contacto del sitio web.  
-      Revisa los datos y responde directamente si es necesario.
-    </p>
+    <footer style="margin-top: 20px; font-size: 8px; color: #888888; text-align:center">
+      <hr style="border: 1px solid #333;" />
+      <p style="color: #888888; font-size: 12px; text-align: center;">
+        &copy; ${year} David Hilera. Este mensaje fue enviado automáticamente desde el formulario de contacto del sitio web.
+      </p>
+    </footer>
   </div>
 `
   })
-
-  console.log('Respuesta de recibir mensaje', rta)
 
   return {
     ok: true,

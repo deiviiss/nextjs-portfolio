@@ -18,7 +18,7 @@ export const Footer = () => {
             transition={{ duration: 0.6 }}
           >
             <p className="text-lg font-semibold mb-2">David Hilera</p>
-            <p className="text-muted-foreground">Desarrollador Web Especializado en Next.js</p>
+            <p className="text-muted-foreground">Desarrollador Web Full Stack Especializado en Next.js</p>
           </motion.div>
 
           <motion.div
@@ -28,6 +28,9 @@ export const Footer = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="flex gap-4 mt-6 md:mt-0"
           >
+            <Link href="mailto:david.hilera@hotmail.com" aria-label="Email">
+              <Mail className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
+            </Link>
             <Link href="https://github.com/deiviiss" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Github className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
             </Link>
@@ -38,9 +41,6 @@ export const Footer = () => {
               aria-label="LinkedIn"
             >
               <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
-            </Link>
-            <Link href="mailto:david.hilera@hotmail.com" aria-label="Email">
-              <Mail className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
             </Link>
             <Link
               href="https://buymeacoffee.com/deiviiss"
