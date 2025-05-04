@@ -9,30 +9,59 @@ import { ToogleDarkMode } from "@/components/dark-mode/toogle-dark-mode/ToogleDa
 import { useTheme } from "next-themes";
 import Image from "next/image"
 import { FiDownload } from "react-icons/fi"
+import { useEffect, useState } from "react"
 
 export const HeroSection = () => {
   const { theme } = useTheme();
+  const [showName, setShowName] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+
+      if (window.scrollY > 300) {
+        setShowName(true)
+      } else {
+        setShowName(false)
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
 
   return (
     <>
-      <div className="fixed flex gap-2 z-10 w-full justify-end bg-[#0a0118] dark:bg-[#020817] p-4">
-        <Link
-          href="/CV-David-Hilera.pdf"
-          download={true}
-          target='_blank'
-          rel="noopener noreferrer"
-        >
-          <Button
-            variant="outline"
-            aria-label="Descargar CV"
-          >
-            <FiDownload className="w-5 h-5" />
-            <span className="hidden sm:flex">Descargar</span> CV
-          </Button>
-        </Link>
+      <nav className={`fixed flex gap-2 z-10 w-full bg-[#0a0118] dark:bg-[#020817] p-4 ${showName ? 'justify-between' : 'justify-end'}`}>
+        {showName &&
+          <motion.h1
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.3 }}
+            className="text-white text-2xl font-bold"
+          >David Hilera
+          </motion.h1>
+        }
 
-        <ToogleDarkMode />
-      </div>
+        <div className="flex gap-2 items-center">
+          <Link
+            href="/CV-David-Hilera.pdf"
+            download={true}
+            target='_blank'
+            rel="noopener noreferrer"
+          >
+            <Button
+              variant="outline"
+              aria-label="Descargar CV"
+            >
+              <FiDownload className="w-5 h-5" />
+              <span className="hidden sm:flex">Descargar</span> CV
+            </Button>
+          </Link>
+
+          <ToogleDarkMode />
+        </div>
+      </nav>
       <section className="relative min-h-screen flex flex-col justify-center items-center px-4 sm:px-4 mt-12 overflow-hidden bg-[#0a0118] dark:bg-[#020817]">
 
         <div className="container mx-auto max-w-6xl flex flex-col lg:flex-row-reverse items-center gap-4 md:gap-8 md:gap-x-28">
