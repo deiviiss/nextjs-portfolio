@@ -128,6 +128,19 @@ export const skills: string[] = [
 
 export const experiences: Experience[] = [
   {
+    company: "Freelancer",
+    position: "Desarrollador Web Full Stack",
+    period: "Sep 2024 – Presente",
+    location: "Remoto / Campeche, México",
+    responsibilities: [
+      "Diseñé y desarrollé landing pages, sistemas administrativos y chatbots personalizados para emprendedores y negocios locales, optimizando su flujo de trabajo sin depender de soluciones genéricas.",
+      "Colaboré con clientes en sectores como educación, comercio y servicios, adaptando soluciones tecnológicas reales a sus procesos diarios.",
+      "Desarrollé sistemas con lógica personalizada (validaciones, permisos, dashboards), utilizando Zustand, Tailwind y Cloudinary para una experiencia sólida y visualmente clara.",
+      "Asesoré técnicamente a negocios locales sobre infraestructura web, automatizaciones y uso estratégico de herramientas digitales.",
+    ],
+    stack: "Next.js 15, Prisma ORM, Tailwind CSS, Zustand, Node.js, Docker, Cloudinary, Nodemailer, Zod, Bayleis",
+  },
+  {
     company: "Gestoría Peninsular",
     position: "Desarrollador Full Stack & Coordinador Técnico de Sucursales",
     period: "Mar 2020 – Ago 2024",
