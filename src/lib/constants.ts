@@ -7,7 +7,7 @@ export const projects: Project[] = [
     "description": "Plataforma de e-commerce para negocios locales, con registro de usuarios, gestión de productos y pagos vía PayPal.",
     "image": "https://repository-images.githubusercontent.com/835229345/4e49305a-e818-47d5-8bbf-e592f7c19565",
     "technologies": ["NextJs", "TypeScript", "Server Actions", "Prisma", "PostgreSQL", "Docker", "Tailwind CSS", "Cloudinary", "PayPal API", "Git"],
-    "demoUrl": "https://bazarcampechano.com",
+    "demoUrl": "https://bazarcampechano.vercel.app",
     "repoUrl": "https://github.com/deiviiss/bazar-campechano",
     "rol": "Full Stack Developer",
     "destacado": "Modelado complejo de base de datos y pasarela de pagos integrada."
