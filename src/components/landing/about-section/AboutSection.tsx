@@ -22,6 +22,19 @@ export default function AboutSection() {
             <h3 className="text-2xl font-bold mb-4">Mi Experiencia</h3>
             <div className="space-y-6">
               <p className="text-lg">
+                Soy desarrollador Full Stack con enfoque en procesamiento de datos y automatización. Trabajo en la construcción de sistemas que integran frontend, backend y pipelines de datos para resolver problemas reales en operación.
+              </p>
+
+              <p className="text-lg">
+                Actualmente diseño soluciones que transforman datos en información estructurada y auditable, desde la ingesta automática de archivos hasta su procesamiento y visualización en dashboards. Mi enfoque está en la consistencia, trazabilidad y lógica de negocio detrás de cada sistema.
+              </p>
+
+              <p className="text-lg">
+                Me interesa construir herramientas útiles y confiables, donde la tecnología no solo funcione, sino que simplifique procesos y aporte claridad. Trabajo con una mentalidad práctica, priorizando soluciones que realmente impacten el día a día del negocio.
+              </p>
+            </div>
+            {/* <div className="space-y-6">
+              <p className="text-lg">
                 Soy un desarrollador web especializado en Next.js, con un enfoque en crear soluciones digitales que
                 mejoran la operación de negocios reales.
               </p>
@@ -31,7 +44,7 @@ export default function AboutSection() {
               <p className="text-lg">
                 Me gusta construir soluciones útiles y funcionales, y llevar una mentalidad de mejora continua a cada proyecto. Ya sea trabajando en una plataforma compleja o en una landing sencilla, siempre doy lo mejor de mí.
               </p>
-            </div>
+            </div> */}
           </motion.div>
 
           <motion.div

@@ -102,9 +102,13 @@ export const HeroSection = () => {
               className="max-w-3xl mx-auto mb-12"
             >
               {/* <h2 className="text-2xl md:text-3xl font-medium mb-4">David Hilera</h2> */}
-              <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+              {/* <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
                 Soy desarrollador Web Full Stack especializado en NextJs.
                 Creo soluciones digitales que automatizan procesos reales, desde e-commerce hasta chatbots en WhatsApp, usando tecnologías modernas para que los negocios operen mejor.
+              </p> */}
+              <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+                Full Stack Developer | Data Processing & Automation.
+                Desarrollo sistemas que procesan, validan y transforman datos reales en herramientas útiles para la operación del negocio.
               </p>
             </motion.div>
 
