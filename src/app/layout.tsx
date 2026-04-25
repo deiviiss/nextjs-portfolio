@@ -8,10 +8,22 @@ import { Toaster } from "@/components/ui/sonner"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "David Hilera | Desarrollador Web",
+  title: "David Hilera | Desarrollador Full Stack",
   description:
-    "Desarrollador web especializado en Next.js, con enfoque en soluciones digitales que mejoran la operación de negocios reales.",
-  keywords: ["desarrollador web", "Next.js", "React", "Tailwind CSS", "Framer Motion", "Campeche", "México"],
+    "Desarrollador Full Stack enfocado en procesamiento de datos y automatización. Construyo sistemas que integran frontend, backend y pipelines de datos para mejorar la operación de negocios.",
+  keywords: [
+    "desarrollador full stack",
+    "procesamiento de datos",
+    "automatización",
+    "Next.js",
+    "Python",
+    "Pandas",
+    "ETL",
+    "MariaDB",
+    "React",
+    "Campeche",
+    "México"
+  ],
   authors: [{ name: "David Hilera" }],
   creator: "David Hilera",
 }
