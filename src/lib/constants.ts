@@ -2,6 +2,40 @@ import { Experience, Project } from "@/interfaces/project.interface"
 
 export const projects: Project[] = [
   {
+
+    "id": 9,
+    "title": "Miss Kelly ESL Academy",
+    "description": "Plataforma con registro de usuarios personalizados para estudiantes de inglés. Presenta contenido y recursos por niveles.",
+    "image": "https://res.cloudinary.com/cloudinary-api-images/image/upload/v1777093852/mi-tienda-en-linea-shop/esl_academic_mxpsup.png",
+    "technologies": ["NextJs", "Server Actions", "TypeScript", "PostgreSQL", "Prisma", "Docker", "Tailwind CSS", "Shadcn", "Cloudinary", "Git"],
+    "demoUrl": "https://misskellyeslacademy.com",
+    "repoUrl": "https://github.com/deiviiss/esl-academic.git",
+    "rol": "Full Stack Developer",
+    "destacado": "Sistema educativo con flujo de registro, autenticación y contenido personalizado."
+  },
+  {
+    "id": 7,
+    "title": "Casa Quetzal",
+    "description": "Landing de marca con enfoque en trazabilidad e innovación genética para semillas. Diseño responsivo y claro. Incluye información de contacto y redes sociales.",
+    "image": "https://res.cloudinary.com/cloudinary-api-images/image/upload/v1777093852/mi-tienda-en-linea-shop/quetzal_seeds_suwilk.png",
+    "technologies": ["NextJs", "TypeScript", "Tailwind CSS", "Shadcn", "Framer Motion", "Git"],
+    "demoUrl": "https://quetzalseeds420.com",
+    "repoUrl": "https://github.com/deiviiss/casa-quetzal.git",
+    "rol": "Frontend Developer",
+    "destacado": "Landing branding con contenido enfocado en valores de marca."
+  },
+  {
+    "id": 10,
+    "title": "Menú Digital",
+    "description": "Sistema web para restaurantes que permite mostrar productos, gestionar pedidos y enviar órdenes por WhatsApp.",
+    "image": "https://res.cloudinary.com/cloudinary-api-images/image/upload/v1777093852/mi-tienda-en-linea-shop/menu_digital_s0slyn.png",
+    "technologies": ["NextJs", "TypeScript", "Server Actions", "Prisma", "PostgreSQL", "Tailwind CSS", "Zustand", "Cloudinary", "Vercel", "Git"],
+    "demoUrl": "https://burgerdev-demo.vercel.app",
+    "repoUrl": "https://github.com/deiviiss/burgerdev",
+    "rol": "Creador y Full Stack Developer",
+    "destacado": "Producto comercial propio enfocado en aumentar pedidos por WhatsApp sin depender de redes sociales."
+  },
+  {
     "id": 1,
     "title": "Bazar Campechano",
     "description": "Plataforma de e-commerce para negocios locales, con registro de usuarios, gestión de productos y pagos vía PayPal.",
@@ -23,17 +57,17 @@ export const projects: Project[] = [
     "rol": "Full Stack Developer",
     "destacado": "Gestión de contenido educativo con panel administrativo."
   },
-  {
-    "id": 9,
-    "title": "Miss Kelly ESL Academy",
-    "description": "Plataforma con registro de usuarios personalizados para estudiantes de inglés. Presenta contenido y recursos por niveles.",
-    "image": "https://res.cloudinary.com/cloudinary-api-images/image/upload/v1741975673/mi-tienda-en-linea-shop/esl-academic_npjptl.png",
-    "technologies": ["NextJs", "Server Actions", "TypeScript", "PostgreSQL", "Prisma", "Docker", "Tailwind CSS", "Shadcn", "Cloudinary", "Git"],
-    "demoUrl": "https://esl-academic.vercel.app/",
-    "repoUrl": "https://github.com/deiviiss/esl-academic.git",
-    "rol": "Full Stack Developer",
-    "destacado": "Sistema educativo con flujo de registro, autenticación y contenido personalizado."
-  },
+  // {
+  //   "id": 8,
+  //   "title": "MiTiendaEnLinea.shop",
+  //   "description": "Landing de promoción de una plataforma SaaS que ofrece e-commerce, servicios de marketing digital y chatbots para emprendedores.",
+  //   "image": "https://repository-images.githubusercontent.com/861436093/976a74ec-7045-4a30-9f5c-e4336148ecf8",
+  //   "technologies": ["NextJs", "Server Actions", "TypeScript", "PostgreSQL", "Prisma", "Docker", "Tailwind CSS", "Shadcn", "Cloudinary", "Git"],
+  //   "demoUrl": "https://mitiendaenlinea.vercel.app",
+  //   "repoUrl": "https://github.com/deiviiss/mi-tienda-en-linea",
+  //   "rol": "Creador y Frontend Developer",
+  //   "destacado": "Plataforma SaaS propia que combina e-commerce con servicios adicionales."
+  // },
   {
     "id": 2,
     "title": "Piscina en Casa",
@@ -44,28 +78,6 @@ export const projects: Project[] = [
     "repoUrl": "https://github.com/deiviiss/pool-at-home.git",
     "rol": "Frontend Developer",
     "destacado": "Presentación clara del servicio con recursos legales y contacto directo."
-  },
-  {
-    "id": 8,
-    "title": "MiTiendaEnLinea.shop",
-    "description": "Landing de promoción de una plataforma SaaS que ofrece e-commerce, servicios de marketing digital y chatbots para emprendedores.",
-    "image": "https://repository-images.githubusercontent.com/861436093/976a74ec-7045-4a30-9f5c-e4336148ecf8",
-    "technologies": ["NextJs", "Server Actions", "TypeScript", "PostgreSQL", "Prisma", "Docker", "Tailwind CSS", "Shadcn", "Cloudinary", "Git"],
-    "demoUrl": "https://mitiendaenlinea.shop",
-    "repoUrl": "https://github.com/deiviiss/mi-tienda-en-linea",
-    "rol": "Creador y Frontend Developer",
-    "destacado": "Plataforma SaaS propia que combina e-commerce con servicios adicionales."
-  },
-  {
-    "id": 7,
-    "title": "Casa Quetzal",
-    "description": "Landing de marca con enfoque en trazabilidad e innovación genética para semillas. Diseño responsivo y claro. Incluye información de contacto y redes sociales.",
-    "image": "https://res.cloudinary.com/cloudinary-api-images/image/upload/v1741975672/mi-tienda-en-linea-shop/quetzal-seed_kvisnr.png",
-    "technologies": ["NextJs", "TypeScript", "Tailwind CSS", "Shadcn", "Framer Motion", "Git"],
-    "demoUrl": "https://quetzalseeds420.vercel.app/",
-    "repoUrl": "https://github.com/deiviiss/casa-quetzal.git",
-    "rol": "Frontend Developer",
-    "destacado": "Landing branding con contenido enfocado en valores de marca."
   },
   {
     "id": 4,
@@ -104,10 +116,13 @@ export const projects: Project[] = [
 
 
 export const skills: string[] = [
+  "Python",
+  "Pandas",
+  "ETL Pipelines",
+  "Data Processing",
+  "TypeScript",
   "Next.js",
   "React",
-  "TypeScript",
-  "JavaScript",
   "Tailwind CSS",
   "Framer Motion",
   "Shadcn",
@@ -121,16 +136,31 @@ export const skills: string[] = [
   "Git",
   "GitHub",
   "Vercel",
-  "WhatsApp API",
-  "Paypal API",
-  "React Native",
 ]
 
 export const experiences: Experience[] = [
   {
+    company: "Corporativo GES",
+    position: "Full Stack Developer | Data Processing & Automation",
+    period: "Ago 2025 – Presente",
+    location: "Campeche, México",
+    responsibilities: [
+      "Diseñé e implementé un pipeline ETL en Python para procesar y normalizar movimientos bancarios desde múltiples fuentes (Excel, CSV, XML), reduciendo carga manual y errores operativos en tesorería.",
+
+      "Construí un sistema determinista de detección de diferencias bancarias basado en segmentación por comportamiento, permitiendo identificar y dar seguimiento a eventos financieros reales de forma auditable.",
+
+      "Automatizé la ingesta de información desde correos electrónicos, extrayendo archivos y procesándolos directamente hacia base de datos sin intervención manual.",
+
+      "Implementé lógica de negocio y persistencia en base de datos (incluyendo stored procedures) para asegurar consistencia, trazabilidad y actualización del estado financiero.",
+
+      "Colaboré en la arquitectura full stack del sistema, integrando backend en Python (Django/DRF), base de datos MariaDB y visualización en dashboards con Next.js y Power BI."
+    ],
+    stack: "Python, Pandas, SQL, MariaDB, Django, DRF, multiprocessing, ETL, Data Cleaning, XML Parsing"
+  },
+  {
     company: "Freelancer",
-    position: "Desarrollador Web Full Stack",
-    period: "Sep 2024 – Presente",
+    position: "Full Stack Developer",
+    period: "Sep 2024 – Sep 2025",
     location: "Remoto / Campeche, México",
     responsibilities: [
       "Diseñé y desarrollé landing pages, sistemas administrativos y chatbots personalizados para emprendedores y negocios locales, optimizando su flujo de trabajo sin depender de soluciones genéricas.",
@@ -142,7 +172,7 @@ export const experiences: Experience[] = [
   },
   {
     company: "Gestoría Peninsular",
-    position: "Desarrollador Full Stack & Coordinador Técnico de Sucursales",
+    position: "Full Stack Developer & Coordinador Técnico de Sucursales",
     period: "Mar 2020 – Ago 2024",
     location: "Campeche, México",
     responsibilities: [
@@ -155,7 +185,7 @@ export const experiences: Experience[] = [
     stack: "Next.js, Prisma ORM, MySQL, Tailwind CSS, Zustand, Node.js, Docker",
   },
   {
-    company: "Grupo GES",
+    company: "Corporativo GES",
     position: "Formador de personal & Coordinador de tienda",
     period: "Nov 2018 – Ene 2020",
     location: "Campeche, México",

@@ -18,7 +18,7 @@ export const Footer = () => {
             transition={{ duration: 0.6 }}
           >
             <p className="text-lg font-semibold mb-2">David Hilera</p>
-            <p className="text-muted-foreground">Desarrollador Web Full Stack Especializado en Next.js</p>
+            <p className="text-muted-foreground">Full Stack Developer | Data Processing & Automation</p>
           </motion.div>
 
           <motion.div
